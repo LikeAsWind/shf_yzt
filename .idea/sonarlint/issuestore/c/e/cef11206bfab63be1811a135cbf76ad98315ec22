@@ -1,0 +1,26 @@
+
+w
+java:S1104"UMake accessKey a static final constant or non-public and provide accessors if needed.(ÿÒ¿šÿÿÿÿÿ8‘Ù©õÇ0
+w
+java:S1104"UMake secretKey a static final constant or non-public and provide accessors if needed.(£³àÿıÿÿÿÿ8’Ù©õÇ0
+t
+java:S1104"RMake bucket a static final constant or non-public and provide accessors if needed.(ÊìÕöûÿÿÿÿ8’Ù©õÇ0
+Q
+java:S1444"/Make this "public static accessKey" field final(ÿÒ¿šÿÿÿÿÿ8“Ù©õÇ0
+Q
+java:S1444"/Make this "public static secretKey" field final(£³àÿıÿÿÿÿ8“Ù©õÇ0
+N
+java:S1444",Make this "public static bucket" field final(ÊìÕöûÿÿÿÿ8“Ù©õÇ0
+W
+java:S1118":Add a private constructor to hide the implicit public one.(ÎíÕš8­Ù©õÇ0
+O
+java:S1854":Remove this useless assignment to local variable "putRet".(Ëî¬r
+@
+java:S1481"+Remove this unused "putRet" local variable.(Ëî¬r
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(²¬ª‰
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(ì—¡Š
+N	java:S106:"9Replace this use of System.out or System.err by a logger.( †Ğ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(áçöéúÿÿÿÿ
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(²¬ª‰
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(À€Î¡øÿÿÿÿ
+S	java:S106R"9Replace this use of System.out or System.err by a logger.(ĞüÜ»ûÿÿÿÿ

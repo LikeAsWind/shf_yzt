@@ -1,0 +1,22 @@
+
+pjavascript:S3776"TRefactor this function to reduce its Cognitive Complexity from 68 to the 15 allowed.(µºŠŸ
+Jjavascript:S3504")Unexpected var, use let or const instead.(„¹àÉÿÿÿÿÿ
+Jjavascript:S3504-")Unexpected var, use let or const instead.(îë„üÿÿÿÿ
+Jjavascript:S18543"/Remove this useless assignment to variable "s".(ã·.
+Jjavascript:S3504c")Unexpected var, use let or const instead.(ÏÂ¯şşÿÿÿÿ
+Kjavascript:S1117n"/'$wrap' is already declared in the upper scope.(´‘Ï´
+Pjavascript:S1117o"/'$info' is already declared in the upper scope.(²ú÷–ûÿÿÿÿ
+vjavascript:S2703t"ZAdd the "let", "const" or "var" keyword to this declaration of "text" to make it explicit.(Ş¸¥Û
+Vjavascript:S1135†"4Complete the task associated to this "TODO" comment.(·ã¿“üÿÿÿÿ
+Kjavascript:S3504")Unexpected var, use let or const instead.(ÃÉÈùÿÿÿÿ
+Kjavascript:S3504º")Unexpected var, use let or const instead.(üßĞÕùÿÿÿÿ
+:javascript:S125ß"Remove this commented out code.(ØşóB
+Fjavascript:S3504ï")Unexpected var, use let or const instead.(Ìä ¯
+Fjavascript:S3504÷")Unexpected var, use let or const instead.(°ıù
+{javascript:S1172ü"YRemove the unused function parameter "k" or rename it to "_k" to make intention explicit.(…ŒÙÌşÿÿÿÿ
+Fjavascript:S3504‰")Unexpected var, use let or const instead.(á²Çª
+Kjavascript:S3504¤")Unexpected var, use let or const instead.(£ıùÒüÿÿÿÿ
+Wjavascript:S1481¤"5Remove the declaration of the unused 'file' variable.(£ıùÒüÿÿÿÿ
+Fjavascript:S3504å")Unexpected var, use let or const instead.(ı­üõ
+Fjavascript:S3504‰")Unexpected var, use let or const instead.(ĞÂ§
+Sjavascript:S1481‰"6Remove the declaration of the unused 'stats' variable.(ĞÂ§

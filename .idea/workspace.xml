@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3196a8a-ae12-4f5e-9d7e-0dae4cb3cad6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/common-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/result/ResultCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/service/Impl/BaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/util/CastUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/util/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/util/QiniuUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/util/WebUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/test/java/com/atguigu/QiniuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/entity/AdminRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/entity/Community.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/entity/Dict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/entity/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/entity/HouseBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/entity/HouseImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/entity/HouseUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/entity/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/entity/RolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/entity/UserFollow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/helper/PermissionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/HouseQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/HouseVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/LoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/RegisterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/UserFollowVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/CommunityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/DictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/HouseBrokerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/HouseImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/HouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/HouseUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/UserFollowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/dao/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/dao/AdminRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/dao/PermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/dao/RolePermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/mapper/AdminDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/mapper/AdminRoelDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/mapper/PermissionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/mapper/RoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/mapper/RolePermissionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/spring/spring-registry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/CommunityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/DictDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/HouseBrokerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/HouseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/HouseImageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/HouseUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/CommunityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/DictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/HouseBrokerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/HouseImageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/HouseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/HouseUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/CommunityDao.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/DictDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/HouseBrokerDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/HouseDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/HouseImageDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/HouseUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/spring/spring-registry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/java/com/atguigu/dao/UserFollowDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/java/com/atguigu/dao/UserInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/java/com/atguigu/service/Impl/UserFollowServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/java/com/atguigu/service/Impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/resources/mapper/UserFollowDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/resources/mapper/UserInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/resources/spring/spring-registry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/config/CustomAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/config/MySpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/config/MyUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/CommunityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/HouseBrokerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/HouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/HouseImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/HouseUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/spring/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/spring/spring-registry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/admin/assignShow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/admin/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/community/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/community/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/community/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/dict/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/frame/auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/frame/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/house/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/house/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/house/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/house/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/house/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/houseBroker/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/houseBroker/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/houseUser/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/houseUser/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/permission/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/permission/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/permission/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/role/assignShow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/jquery.ztree.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/jquery.ztree.excheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/java/com/atguigu/controller/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/java/com/atguigu/controller/HouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/java/com/atguigu/controller/UserFollowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/java/com/atguigu/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/java/com/atguigu/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/resources/spring/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/resources/spring/spring-registry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/follow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/css/swiper-bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/5c89d517-a720-4053-84ec-45fa22d1627d.jpg.480x640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/832c9fdc-e770-416d-8ae4-cc17e294049e.jpg.480x640.jpg.55x55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/adb503d4-3b05-4574-a61a-e5efbd39ec47.png.480x640.jpg.55x55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/apc_22eFgul7w_1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/apc_38Hem1dwa_1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/apc_WqtUHOjF0_1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/backtop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/black60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/d61bd0db-9b94-4199-85e1-8360606f9c99.jpg.480x640.jpg.55x55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fangt1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/icon1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/icon2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/icon3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/icon4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-1.bac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/pc0_GThKMHeTe_1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/pc1_dchE3H5xX_1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/phone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/phone2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/procar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/proxujian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/shopbg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/standard_f1ba9c2f-a917-421d-ad0f-2a6048a0d0d7.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/titlebg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/tx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/vipTitlebg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/vipicon1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/vipicon2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/vipicon3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/weizhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/wuxing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/xie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/xiugai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/xunzhang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/vue.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-3.8.5" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-3.8.5/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HReZDyTsqTvXyWo72Bifk56tjU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/shf-parent/web/web-front/src/main/resources/spring&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;becf5f7a7b5fd9e53ff08a50a75c9998&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\shf-parent\web\web-front\src\main\resources\spring" />
+      <recent name="D:\IdeaProjects\shf-parent\web\web-admin\src\main\resources\spring" />
+      <recent name="D:\IdeaProjects\shf-parent\model\src\main\java\com\atguigu\helper" />
+      <recent name="D:\IdeaProjects\shf-parent\common-util\src\main\java\com\atguigu\helper" />
+      <recent name="D:\IdeaProjects\shf-parent\service\service-acl\src\main\resources\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\shf-parent\web\web-front\src\main\webapp" />
+      <recent name="D:\IdeaProjects\shf-parent\web\web-front\src\main" />
+      <recent name="D:\IdeaProjects\shf-parent\web" />
+      <recent name="D:\IdeaProjects\shf-parent\service\service-acl\src\main\resources" />
+      <recent name="D:\IdeaProjects\shf-parent\web-admin\src\main\webapp\WEB-INF\templates\common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="MavenRunConfiguration" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.shf-parent [install]">
+    <configuration name="service-acl [7001]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-repository" />
+            <option name="mavenHome" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-3.8.5" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="pluginUpdatePolicy" value="DEFAULT" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" />
+            <option name="useMavenConfig" value="true" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-3.8.5/conf/settings.xml" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="org.eclipse.jetty:jetty-maven-plugin:9.4.15.v20190215:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/service/service-acl" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="service-house [7002]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-repository" />
+            <option name="mavenHome" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-3.8.5" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="pluginUpdatePolicy" value="DEFAULT" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" />
+            <option name="useMavenConfig" value="true" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-3.8.5/conf/settings.xml" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="org.eclipse.jetty:jetty-maven-plugin:9.4.15.v20190215:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/service/service-house" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="service-user [7003]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-repository" />
+            <option name="mavenHome" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-3.8.5" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="pluginUpdatePolicy" value="DEFAULT" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" />
+            <option name="useMavenConfig" value="true" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-3.8.5/conf/settings.xml" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="org.eclipse.jetty:jetty-maven-plugin:9.4.15.v20190215:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/service/service-user" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="shf-parent [install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-repository" />
+            <option name="mavenHome" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-3.8.5" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="pluginUpdatePolicy" value="DEFAULT" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" />
+            <option name="useMavenConfig" value="true" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-3.8.5/conf/settings.xml" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="web-admin [8000]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-repository" />
+            <option name="mavenHome" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-3.8.5" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="pluginUpdatePolicy" value="DEFAULT" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" />
+            <option name="useMavenConfig" value="true" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-3.8.5/conf/settings.xml" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="org.eclipse.jetty:jetty-maven-plugin:9.4.15.v20190215:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/web/web-admin" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="web-front [8002]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-repository" />
+            <option name="mavenHome" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-3.8.5" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="pluginUpdatePolicy" value="DEFAULT" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" />
+            <option name="useMavenConfig" value="true" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="$PROJECT_DIR$/../../DevelopSoftware/Apache-maven-3.8.5/conf/settings.xml" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="org.eclipse.jetty:jetty-maven-plugin:9.4.15.v20190215:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/web/web-front" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.service-user [7003]" />
+      <item itemvalue="Maven.shf-parent [install]" />
+      <item itemvalue="Maven.service-acl [7001]" />
+      <item itemvalue="Maven.service-house [7002]" />
+      <item itemvalue="Maven.web-admin [8000]" />
+      <item itemvalue="Maven.web-front [8002]" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3196a8a-ae12-4f5e-9d7e-0dae4cb3cad6" name="Changes" comment="" />
+      <created>1668252376433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668252376433</updated>
+      <workItem from="1668252377852" duration="10984000" />
+      <workItem from="1668318245741" duration="15019000" />
+      <workItem from="1668352825760" duration="296000" />
+      <workItem from="1668410679420" duration="19248000" />
+      <workItem from="1668486443213" duration="30693000" />
+      <workItem from="1668569140564" duration="32945000" />
+      <workItem from="1668669567348" duration="7702000" />
+      <workItem from="1668773120113" duration="12121000" />
+      <workItem from="1669537914232" duration="33400000" />
+      <workItem from="1669687377062" duration="19624000" />
+      <workItem from="1669736905932" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
